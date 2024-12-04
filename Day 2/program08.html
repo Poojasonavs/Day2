@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Styles Example</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light gray background */
+            font-family: Arial, sans-serif;
+        }
+        .border-example {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+        }
+        .dotted {
+            border: 2px dotted black;
+            background-color: #f44336; /* Red */
+        }
+        .dashed {
+            border: 2px dashed black;
+            background-color: #2196F3; /* Blue */
+        }
+        .solid {
+            border: 2px solid black;
+            background-color: #4CAF50; /* Green */
+        }
+        .double {
+            border: 4px double black;
+            background-color: #FF9800; /* Orange */
+        }
+        .groove {
+            border: 4px groove #888;
+            background-color: #9C27B0; /* Purple */
+        }
+        .inset {
+            border: 4px inset #888;
+            background-color: #FFC107; /* Amber */
+        }
+        .outset {
+            border: 4px outset #888;
+            background-color: #3F51B5; /* Indigo */
+        }
+    </style>
+</head>
+<body>
+    <div class="border-example dotted">Dotted</div>
+    <div class="border-example dashed">Dashed</div>
+    <div class="border-example solid">Solid</div>
+    <div class="border-example double">Double</div>
+    <div class="border-example groove">Groove</div>
+    <div class="border-example inset">Inset</div>
+    <div class="border-example outset">Outset</div>
+</body>
+</html>

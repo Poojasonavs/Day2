@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Color Example</title>
+    <style>
+        /* Using a class selector */
+        .first-paragraph {
+            color: red;
+        }
+
+        /* Using an ID selector */
+        #second-paragraph {
+            color: green;
+        }
+
+        /* Using an element selector */
+        p {
+            color: blue; /* This will apply to all paragraphs, but will be overridden by more specific selectors */
+        }
+    </style>
+</head>
+<body>
+    <p class="first-paragraph">This is the first paragraph with red text.</p>
+    <p id="second-paragraph">This is the second paragraph with green text.</p>
+    <p>This is the third paragraph with blue text.</p>
+</body>
+</html>
